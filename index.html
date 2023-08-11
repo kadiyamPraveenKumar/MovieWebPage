@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MovieBeatz</title>
+    <link rel="stylesheet" href="./css/Mian.css">
+    
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="./assets/logo.jpg" alt="">
+            </div>
+            <ul class="nav-area">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="./html/login.html">SignIn</a></li>
+            </ul>
+        </div>
+        <div class="container"></div>
+        <div class="welcome-text">
+               <h1>Welcome<br><span id="element"></span></h1>
+                <a href="./html/homePage.html">Continue</a>
+        </div>
+    </header>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" ></script>
+    <script>
+          var typed = new Typed('#element', {
+    strings: ['To The ',' Movie Beatz...!'],
+    typeSpeed: 50,
+  });
+    </script>
+</body>
+</html>

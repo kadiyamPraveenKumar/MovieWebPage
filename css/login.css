@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(75deg,rgb(224, 34, 224),rgb(182, 60, 109));
+    display: flex;
+}
+#login{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+#login,h6{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+#email,#password
+{
+    width: 70%;
+    height: 20px;
+    border-radius: 5px;
+    bottom: 190px;
+}
+#signup{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 70%;
+    height: 60%;
+    background-color: rgba(128,128 , 128, 0.47);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 40%;
+}
+#subcontainer1{
+    display: flex;
+    height: 180px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.infoInput{
+    width: 45%;
+    height: 25px;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    font-size: 18px;
+}
+#loginButton,#cancleButton{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    letter-spacing: 5px;
+    font-size: 24px;
+    background-image: linear-gradient(75deg,#C04848,yellow,#480048,yellow,#C04848);
+    background-size: 800px;
+    background-position: 100px;
+    transition: all 0.2s;
+}
+#loginButton:hover,#cancleButton:hover{
+    animation: buttonAnimation  2s infinite linear;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+@keyframes buttonAnimation {
+    from
+    {
+        background-position: 800px;
+    }
+    to{
+        background-position: 0px;
+    }
+}
