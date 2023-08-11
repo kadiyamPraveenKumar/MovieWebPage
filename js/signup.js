@@ -18,7 +18,7 @@ function storeData()
     localStorage.setItem("month",month)
     localStorage.setItem("date",date)
     localStorage.setItem("year",year)
-    window.open("./Login.html")
+    window.open("./login.html")
 }
 function gender(gen)
 {
